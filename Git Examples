@@ -122,3 +122,37 @@ Example of git stash:
 git stash save:  save changes that you don’t want to commit immediately.
 
 git stash pop: This command restores the most recently stashed files.
+git stash list: This command lists all stashed changes.
+
+git stash drop: This command discards the most recently stashed changes.
+
+ 
+
+git merge
+Usage: git merge merge two branches you were working on.
+
+Example of git merge:
+
+git merge [branch name]: This command merges the specified branch’s history into the current branch.
+
+ 
+
+git reset
+Usage: git reset undoes file or commit.
+
+Example of git reset:
+
+git reset [file] : This command unstages the file, but it preserves the file contents.
+
+git reset [commit] : This command undoes all the commits after the specified commit and preserves the changes locally.
+
+git reset –hard [commit] : This command discards all history and goes back to the specified commit.
+
+ 
+
+git remote
+Usage: git remote is used to connect your local repository to the remote server.
+
+Example of git remote:
+
+git remote add [variable name] [Remote Server Link]
