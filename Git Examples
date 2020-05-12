@@ -1,0 +1,124 @@
+Let’s dive deep and check more details about each git command
+
+Here is list of important git commands with examples:
+
+git config
+Usage: This command is used to set the author name and email address to be used with your commits. It sets username and email in main configuration file
+
+Example of git config:
+
+git config –global user.name “[name]”
+git config –global user.email “[email address]”
+
+ 
+
+git init
+Usage: git init is used to initialize new git repository
+
+Example of git init:
+
+git init [repository name]
+
+ 
+
+git clone
+Usage: git clone is used to copy a repository from an existing remote URL. It also the remote to original source so that you can pull again.
+
+Example of git clone:
+
+git clone [url]
+
+ 
+
+git status
+Usage: git status check the status of files you have changed in your working directory which are not committed.
+
+Example of git status:
+
+git status
+
+ 
+
+git add
+Usage: git add adds a file to the staging area in your working directory.
+
+Example of git add:
+
+git add [file]
+
+git add *
+
+ 
+
+git commit
+Usage: git add commits your changes in remote.
+
+Example of git commit:
+
+git commit -m “my sample commit message”
+
+ 
+
+git diff
+Usage: git diff shows the file differences which are not yet staged.
+
+Example of git diff:
+
+git diff:  git diff shows the file differences which are not yet staged.
+
+git diff –staged: This command shows the differences between the files in the staging area and the latest version present.
+
+ 
+
+git push
+Usage: git push is used to send committed changes to remote repository repository.
+
+Example of git push:
+
+git push [variable name] [branch]: This command sends the branch commits to your remote repository.
+
+git push –all [variable name]: This command pushes all branches to your remote repository.
+
+ 
+
+git pull
+Usage: git pull fetches changes from remote repository.
+
+Example of git pull:
+
+git pull [Repository Link]: This command fetches and merges changes on the remote server to your working directory.
+
+ 
+
+git branch
+Usage: git branch lists all the local branches in the current repository.
+
+Example of git branch:
+
+git branch: git branch lists all the local branches in the current repository.
+
+git branch [branch name]: It creates a new branch.
+
+git branch -d [branch name]: It deletes branch with branch name.
+
+ 
+
+git checkout
+Usage: git checkout is used to switch from one branch to another.
+
+Example of git checkout:
+
+git checkout [branch name]: This command is used to switch from one branch to another.
+
+git checkout -b [branch name]:  This command creates a new branch and also switches to it.
+
+ 
+
+git stash
+Usage: git stash save changes that you don’t want to commit immediately.
+
+Example of git stash:
+
+git stash save:  save changes that you don’t want to commit immediately.
+
+git stash pop: This command restores the most recently stashed files.
