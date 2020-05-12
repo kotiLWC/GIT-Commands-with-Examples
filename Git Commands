@@ -1,0 +1,39 @@
+What is git?
+Git is a distributed version-control system for tracking changes in source code during software development.
+It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
+Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+
+Git is a free, open source distributed version control system tool designed to handle everything from small to very large projects with speed and efficiency. 
+It was created by Linus Torvalds in 2005 to develop Linux Kernel. Git has the functionality, performance, security and flexibility that most teams and individual developers need. 
+It also serves as an important distributed version-control DevOps tool.
+
+Features of Git
+Free and open source
+Speed
+Scalable
+Reliable
+Secure
+Economical
+Supports non-linear development
+Easy Branching
+Distributed development
+Compatibility with existing systems or protocol
+
+Git Commands
+Here is list of important git commands:
+
+git config
+git init
+git clone
+git status
+git add
+git commit
+git diff
+git push
+git pull
+git branch
+git checkout
+git stash
+git merge
+git reset
+git remote
